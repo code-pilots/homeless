@@ -6,7 +6,7 @@ CRM-система для организации работы соцслужбы
 
 1. Склонируйте репозиторий проекта:
 
-    > git clone  ./path/to/project
+    > git clone  https://github.com/code-pilots/homeless.git
 
 2. После клонирования перейдите в каталог проекта:
 
