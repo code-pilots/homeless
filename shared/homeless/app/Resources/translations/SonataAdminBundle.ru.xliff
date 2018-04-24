@@ -124,7 +124,7 @@
             </trans-unit>
             <trans-unit id="Admin">
                 <source>Admin</source>
-                <target>БАЗА</target>
+                <target>МКС - многофункциональный кабинет соцработника</target>
             </trans-unit>
             <trans-unit id="link_expand">
                 <source>link_expand</source>
