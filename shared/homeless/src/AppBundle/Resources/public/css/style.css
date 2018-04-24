@@ -199,3 +199,11 @@ input#filter_search_value{
 .select2-results .select2-result-label {
     padding: 0;
 }
+
+.skin-black .main-header>.logo{
+    padding: 0;
+    line-height: 47px;
+}
+.skin-black .main-header>.logo img{
+    padding: 0;
+}
