@@ -10,6 +10,8 @@ RUN groupmod -g $GUID www-data
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     apt-utils
 
+RUN apt-get update
+
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
         bash \
         vim \
@@ -21,7 +23,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
         libjpeg62-turbo-dev \
         librabbitmq-dev \
         libmcrypt-dev \
-        libpng12-dev \
         libpq-dev \
         imagemagick \
         libcurl4-gnutls-dev \
