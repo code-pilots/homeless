@@ -29,7 +29,7 @@
 
 3. Создайте локальные копии файлов `docker-compose.yml.dist` и `.env.dist`:
     
-    > cp docker-compose.yml.dist docker-compose.yml.dist
+    > cp docker-compose.yml.dist docker-compose.yml
     
     > cp .env.dist .env
     
