@@ -21,7 +21,7 @@
 
 1. Склонируйте репозиторий проекта:
 
-    > git clone  https://github.com/code-pilots/homeless.git
+    > git clone  https://github.com/homelessru/mks.git
 
 2. После клонирования перейдите в каталог проекта:
 
