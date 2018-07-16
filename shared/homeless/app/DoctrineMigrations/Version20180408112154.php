@@ -192,9 +192,6 @@ class Version20180408112154 extends AbstractMigration
         // Fill `generated_document_end_text`
         $this->addSql('INSERT INTO `generated_document_end_text` VALUES (1,NULL,NULL,\'Убедительно просим Вас не остаться безучастными к человеку, оказавшемуся в сложной жизненной ситуации.\',NULL,NULL,3,100,\'2017-09-11 20:22:38\',NULL),(2,NULL,NULL,\'В случае невозможности предоставить данную информацию просим сообщить о порядке ее получения.\',NULL,NULL,4,100,\'2017-09-11 20:22:38\',NULL),(3,NULL,NULL,\'Ответ просим дополнительно направить по факсу.\',NULL,NULL,5,100,\'2017-09-11 20:22:38\',NULL),(4,NULL,NULL,\'Благодарим за сотрудничество и понимание.\',NULL,NULL,6,100,\'2017-09-11 20:22:38\',NULL)');
 
-        // Fill `generated_document_start_text`
-        $this->addSql('INSERT INTO `generated_document_start_text` VALUES (1,NULL,NULL,\'СПб БОО «Название организации» занимается оказанием социально-юридической помощи лицам БОМЖ.\',NULL,NULL,1,100,\'2017-09-11 20:22:38\',NULL),(2,NULL,NULL,\'СПб БОО «Название организации» занимается оказанием медико-социальной и юридической помощи лицам без определенного места жительства, а также гражданам, оказавшимся в сложной жизненной ситуации.\',NULL,NULL,2,100,\'2017-09-11 20:22:38\',NULL)');
-
         // Fill `generated_document_type`
         $this->addSql('INSERT INTO `generated_document_type` VALUES (1,NULL,NULL,\'Заявление\',NULL,7,100,\'2017-09-11 20:22:38\',NULL),(2,NULL,NULL,\'Жалоба\',NULL,8,100,\'2017-09-11 20:22:38\',NULL),(3,NULL,NULL,\'Запрос\',NULL,9,100,\'2017-09-11 20:22:38\',NULL),(4,NULL,NULL,\'Благодарность\',NULL,10,100,\'2017-09-11 20:22:38\',NULL)');
 
