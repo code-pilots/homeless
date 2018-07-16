@@ -32,7 +32,7 @@ services:
     volumes:
       - "./shared/homeless:/var/www/symfony"
   db:
-    image: "mariadb:latest"
+    image: codepilotscom/mks-mariadb:10.3
     expose:
         - "3306"
     ports:
