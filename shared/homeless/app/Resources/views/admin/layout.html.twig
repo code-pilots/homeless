@@ -72,7 +72,7 @@
     {% else %}
         {% set query = '' %}
     {% endif %}
-
+     <p style="color: white;margin: 0 10px;">проект "Ночлежки"<span style="float:right">homeless.ru</span></p>
     <form action="{{ path('admin_app_client_list') }}" method="GET" class="sidebar-form" role="search">
         <div class="input-group custom-search-form">
             <input type="text" name="filter[search][value]" value="{{ query }}" class="form-control"
